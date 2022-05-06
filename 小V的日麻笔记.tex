@@ -1,0 +1,142 @@
+\documentclass[UTF8,12pt,titlepage,oneside]{ctexbook}
+\usepackage[height=1.5\baselineskip]{mahjong}
+\usepackage{fancyhdr}
+\usepackage{subfigure}
+\usepackage[subfigure]{tocloft}
+\usepackage{bookmark}
+\usepackage{pifont}
+\hypersetup{hidelinks,
+colorlinks=true,
+allcolors=black,
+pdfstartview=Fit,
+breaklinks=true
+}
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\baselinestretch}{1.5} \normalsize
+\newcommand{\fmahjong}[1]{\raisebox{-3mm}{\mahjong{#1}}}
+
+
+\title{小V的日麻笔记}
+\author{小V}
+\date{\today}
+\setlength{\headheight}{16pt}
+\begin{document}
+\maketitle
+\pagestyle{empty}
+\tableofcontents
+
+\pagestyle{fancy}
+\chapter{心态篇}
+\section{要了解自己的成绩}
+如果可能的话，以1000个半庄为一个单位，去检阅自己的成绩。如果1000个半庄太过困难的话，可以以100个半庄为单位来检测， 因为只有了解到自己的成绩才知道自己的麻将水平。平均顺位在2.3到2.4之间的话可以称之为“胜者组”。反之则是“败者组”。所以一旦进入了败者组就说明自己的麻将技术是有问题的，需要去改进。
+
+一旦突破平均顺位是2.4以下的话，无疑自己就可称之为是个“麻将强者”啦。
+
+\section{麻将即使痛苦也要喜欢}
+麻将是个4人游戏，有时候会对对手有抱怨的情绪。不过这些情绪是成为麻将强者的必经之路。有时候牌局可能很痛苦，但也要坦然接受，去面对。所以无论何时都要愉快的去打牌。
+
+
+\cleardoublepage
+\chapter{做牌}
+\section{基本手筋与手顺}
+二阶堂亚树在红亚树说过，无论什么巡目，随意的切牌都不会有好下场。因此在做牌方面要学会从牌效上打牌。
+那么\textbf{牌效}是什么？红亚树上定义的牌效是，打什么牌进张面最广。在鱼谷的书当中，定义的是平衡距离听牌的速度与和牌的速度，来做出最佳的选择。无论是哪种定义方式也离不开最基本的手筋与手顺。
+
+那么什么是手筋，什么是手顺？
+手筋，指的是基于战略做出的打牌方针
+手顺，则是顾名思义切牌的顺序
+
+所以来学习基础的手筋把。
+
+一般一副手牌的切牌顺序如下：
+\begin{itemize}
+\item 在面子足够的情况下切有筋的端牌（既有4的时候切浮牌1，有6的时候切浮牌的9）
+
+\textbf{例： 宝牌 \fmahjong{5z}}
+
+\mahjong{14m1799p23467s554z}
+\begin{itemize}
+\item[\ding{213}] 切 \fmahjong{1m}
+\item[\ding{213}] 能够组成面子的已经有\fmahjong{799p-234s-67s-55z}这4组
+\item[\ding{213}] 即使切\fmahjong{4z}，摸到了\fmahjong{23m}还是要切掉\fmahjong{1m}
+\end{itemize}
+
+\item 字牌
+\begin{itemize}
+\item 首先要考虑的是有无平和？因为平和需要非役牌的雀头
+
+\textbf{例: 东1局\ 西家\ 第1巡\ 宝牌 \fmahjong{7p}}
+
+\mahjong{23678m36789p34s25z}
+
+\begin{itemize}
+\item[\ding{213}] 这手牌能看出是个平和的,优先处理掉会减平和那一翻的\fmahjong{5z}会更佳
+\end{itemize}
+
+\item 然后就是最没价值的字牌
+
+\textbf{例: 东1局\ 西家\ 第1巡\ 宝牌 \fmahjong{7p}}
+
+\mahjong{13668m35799p3s125z}
+\begin{itemize}
+\item[\ding{213}] 多张字牌的时候，如果没有手役，一般都是客风→役牌→双风牌
+\item[\ding{213}] 因此这手牌价值最小的就是客风的 \fmahjong{2z}
+\item[\ding{213}] \fmahjong{1z}留最后是因为对自己来说只是单纯的役牌，然而优先打出去被庄家碰出有了确定的2翻的话是不利的，应该等人打出之后跟着打
+\end{itemize}
+\end{itemize}
+
+\item 端牌
+
+处理好字牌，筋上的端牌之后就是浮牌的端牌了
+
+\textbf{例: 宝牌 \raisebox{-3mm}{\mahjong{5z}}}
+
+\mahjong{1668m3799p2788s55z}
+
+\begin{itemize}
+\item[\ding{213}] 这一手牌只有1张价值最低的端牌，那就是 \raisebox{-3mm}{\mahjong{1m}}
+\item[\ding{213}] 牌效率上讲数牌越往中间靠就越好。
+\end{itemize}
+
+但端牌之间也有一个比较，就是看看有没有相差4的的牌。
+
+\textbf{例: 宝牌 \fmahjong{5z}}
+
+\mahjong{15m167p234779s555z}
+
+\begin{itemize}
+\item[\ding{213}] 这手牌有两张浮牌，分别是 \fmahjong{1m} 和 \fmahjong{1p}
+\item[\ding{213}] 但最佳留下的应该是 \fmahjong{1m}， 因为跟 \fmahjong{5m} 相差了4，换句话说一旦摸进了 \fmahjong{3m} 就能形成 \fmahjong{135m} 的两坎形式
+\item[\ding{213}] 因此这题应该切 \fmahjong{1p}
+\end{itemize}
+
+\item 但是也有一些特殊情况，比如跟一色手，七对子，全带，对对等有手役的时候
+
+\textbf{例: 宝牌 \fmahjong{7p}}
+
+\mahjong{113467889m68s225z}
+
+\begin{itemize}
+\item[\ding{213}] 这手牌很明显的万子染手，这种情况下就应该从最中间也是较为危险的\fmahjong{6s}开始
+\end{itemize}
+
+\textbf{例： 宝牌 \fmahjong{9m}} 
+
+\mahjong{14688m15p12s3345z-9m}
+
+\begin{itemize}
+\item[\ding{213}] 这一道题来自红亚树，选择的第一打是 \fmahjong{5p}
+\item[\ding{213}] 手牌一般，看看能不能往混一色发展，需要注意的是此时他家打出\fmahjong{3z}的时候是不能碰的，至少要摸成了宝牌对子或者役牌对子才能决定混一色路线。
+\item[\ding{213}] 况且这牌还有可能发展成一气通贯，总之副露的混一色本身也只有2翻，打点很低，至少要有额外的1翻或者2翻达到满贯的目的就最好了。
+\end{itemize}
+
+\end{itemize}
+
+\cleardoublepage
+\chapter{进攻篇}
+进攻方面
+\cleardoublepage
+\chapter{防守篇}
+防守方面
+\cleardoublepage
+\end{document}
